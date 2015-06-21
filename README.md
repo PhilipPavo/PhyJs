@@ -1,2 +1,3 @@
 # PhyJs
-js lib
+
+`$.init()`
