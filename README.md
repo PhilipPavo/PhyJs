@@ -5,7 +5,7 @@
         //on document loaded
     }
 ## DOM
-**поиск элемента по id**
+###поиск элемента по id###
 
 `$.ge(element || id)`
 * _element_ - элемент
