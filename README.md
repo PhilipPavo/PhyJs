@@ -5,16 +5,17 @@
         //on document loaded
     }
 ## DOM
-####поиск элемента по id####
-
+####поиск элемента по идентификатору###
 `$.ge(element || id)`
 * _element_ - элемент
 * _id_ - id элемента (string)
 
+####Поиск элементов по названию тега####
 `$.geByTag(searchTag, node = document)`
 * _searchTag_ - тег (string)
 * _node_ - узел для поиска (по умолчанию - весь документ)
 
+####Поиск первого элемента с тегом searchTag####
 `$.geByTag1(searchTag, node = document)`
 * _searchTag_ - тег (string)
 * _node_ - узел для поиска (по умолчанию - весь документ)
