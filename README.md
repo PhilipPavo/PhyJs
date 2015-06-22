@@ -5,7 +5,7 @@
         //on document loaded
     }
 ## DOM
-`$.ge(element || id)`
+`$.ge(element || id)` поиск элементов с id
 * **element** - элемент
 * **id** - id элемента (string)
 
