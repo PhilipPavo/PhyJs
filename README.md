@@ -5,7 +5,7 @@
         //on document loaded
     }
 ## DOM
-####поиск элемента по идентификатору###
+####Поиск элемента по идентификатору###
 `$.ge(element || id)`
 * _element_ - элемент
 * _id_ - id элемента (string)
@@ -20,27 +20,33 @@
 * _searchTag_ - тег (string)
 * _node_ - узел для поиска (по умолчанию - весь документ)
 
+####Поиск элементов по названию класса####
 `$.geByClass(searchClass, node = document, tag)`
 * _searchClass_ - класс (string)
 * _node_ - узел для поиска (по умолчанию - весь документ) 
 * _tag_ - тег (string)
 
+####Поиск первого элемента с классом searchClass####
 `$.geByClass1(searchClass, node = document, tag)`
 * _searchClass_ - класс (string)
 * _node_ - узел для поиска (по умолчанию - весь документ)
 * _tag_ - тег (string)
 
+####Создание элемента с тегом tagName, атрибутами attr и стилями style####
 `$.ce(tagName, attr, style)`
 * _tagName_ - HTML-тег (string)
 * _attr_ - HTML- атрибуты (Object)
 * _style_ - CSS-стили (Object)
 
+####Удаление элемента el####
 `$.re(el)`
 * _el_ - элемент (HTML-object)
 
+####Показать элемент####
 `$.show(elem)`
 * _elem_ - элемент (HTML-object)
 
+####Скрыть элемент####
 `$.hide(elem)`
 * _elem_ - элемент (HTML-object)
 
