@@ -5,96 +5,96 @@
         //on document loaded
     }
 ## DOM
-_поиск элемента по id_
+**поиск элемента по id**
 
 `$.ge(element || id)`
-* **element** - элемент
-* **id** - id элемента (string)
+* _element_ - элемент
+* _id_ - id элемента (string)
 
 `$.geByTag(searchTag, node = document)`
-* **searchTag** - тег (string)
-* **node** - узел для поиска (по умолчанию - весь документ)
+* _searchTag_ - тег (string)
+* _node_ - узел для поиска (по умолчанию - весь документ)
 
 `$.geByTag1(searchTag, node = document)`
-* **searchTag** - тег (string)
-* **node** - узел для поиска (по умолчанию - весь документ)
+* _searchTag_ - тег (string)
+* _node_ - узел для поиска (по умолчанию - весь документ)
 
 `$.geByClass(searchClass, node = document, tag)`
-* **searchClass** - класс (string)
-* **node** - узел для поиска (по умолчанию - весь документ) 
-* **tag** - тег (string)
+* _searchClass_ - класс (string)
+* _node_ - узел для поиска (по умолчанию - весь документ) 
+* _tag_ - тег (string)
 
 `$.geByClass1(searchClass, node = document, tag)`
-* **searchClass** - класс (string)
-* **node** - узел для поиска (по умолчанию - весь документ)
-* **tag** - тег (string)
+* _searchClass_ - класс (string)
+* _node_ - узел для поиска (по умолчанию - весь документ)
+* _tag_ - тег (string)
 
 `$.ce(tagName, attr, style)`
-* **tagName** - HTML-тег (string)
-* **attr** - HTML- атрибуты (Object)
-* **style** - CSS-стили (Object)
+* _tagName_ - HTML-тег (string)
+* _attr_ - HTML- атрибуты (Object)
+* _style_ - CSS-стили (Object)
 
 `$.re(el)`
-* **el** - элемент (HTML-object)
+* _el_ - элемент (HTML-object)
 
 `$.show(elem)`
-* **elem** - элемент (HTML-object)
+* _elem_ - элемент (HTML-object)
 
 `$.hide(elem)`
-* **elem** - элемент (HTML-object)
+* _elem_ - элемент (HTML-object)
 
 `$.isVisible(elem)`
-* **elem** - элемент (HTML-object)
+* _elem_ - элемент (HTML-object)
 
 `$.toggle(elem, v)`
-* **elem** - элемент (HTML-object)
-* **v** - значение (bool)
+* _elem_ - элемент (HTML-object)
+* _v_ - значение (bool)
 
 ## CSS
 `$.setStyle(elem, name, value)`
-* **elem** - элемент (HTML-object)
-* **name** - имя атрибута css или набор атрибутов (string / Object)
-* **value** - значение атрибута
+* _elem_ - элемент (HTML-object)
+* _name_ - имя атрибута css или набор атрибутов (string / Object)
+* _value_ - значение атрибута
 
 ## AJAX
 `$.Ajax.getXmlHttp()`
 
 `$.Ajax.post(url, data)`
-* **url** - url-адрес запроса
-* **data** - post данные (Object)
+* _url_ - url-адрес запроса
+* _data_ - post данные (Object)
 
 `$.Ajax.get(url, data, cb)`
-* **url** - url-адрес запроса
-* **data** - данные (Object)
-* **cb** - callback (function)
+* _url_ - url-адрес запроса
+* _data_ - данные (Object)
+* _cb_ - callback (function)
 
 ## Utils
 `$.intval(value)`
-* **value** - значение(mixed)
+* _value_ - значение(mixed)
 
 `$.floatval(value)`
-* **value** - значение(mixed)
+* _value_ - значение(mixed)
 
 `$.rand(mi, ma)`
-* **mi** - минимальное (number)
-* **ma** - максимальное (number)
+* _mi_ - минимальное (number)
+* _ma_ - максимальное (number)
 
 `$.irand(mi, ma)`
-* **mi** - минимальное (number)
-* **ma** - максимальное (number)
+* _mi_ - минимальное (number)
+* _ma_ - максимальное (number)
 
 `$.crand()`
 
 `$.data2str(data)`
-* **data** - данные (Object)
+* _data_ - данные (Object)
 
 `$.getUrlParams()`
 
 `$.isObject(obj)`
-* **obj** - объект(mixed)
+* _obj_ - объект(mixed)
 
 `$.each(object, callback)`
-* **object** - объект(Object)
-* **callback** - callback(function)
+* _object_ - объект(Object)
+* _callback_ - callback(function)
 
 `$.extend()`
