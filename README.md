@@ -50,6 +50,7 @@
 `$.hide(elem)`
 * _elem_ - элемент (HTML-object)
 
+
 `$.isVisible(elem)`
 * _elem_ - элемент (HTML-object)
 
@@ -58,6 +59,7 @@
 * _v_ - значение (bool)
 
 ## CSS
+####Установка стилей элементу####
 `$.setStyle(elem, name, value)`
 * _elem_ - элемент (HTML-object)
 * _name_ - имя атрибута css или набор атрибутов (string / Object)
